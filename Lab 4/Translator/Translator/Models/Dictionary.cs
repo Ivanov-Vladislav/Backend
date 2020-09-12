@@ -21,7 +21,7 @@ namespace Translator.Data.Models
                 while (!sr.EndOfStream)
                 {
                     string line = sr.ReadLine();
-                    string[] parts = line.Split('|');
+                    string[] parts = line.Split('=');
                     if (parts.Length != 2)
                     {
                         throw new Exception("Incorrect dictionary format.");

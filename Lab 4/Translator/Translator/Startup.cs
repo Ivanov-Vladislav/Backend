@@ -35,7 +35,7 @@ namespace Translator
                 {
                     string word = context.Request.Query["word"];
                     Console.WriteLine(word);
-                    Dictionary dictionary = new Dictionary("Dictionary\\Dictionary.txt");
+                    Dictionary dictionary = new Dictionary("dict.txt");
                     string translation = dictionary.Find(word);
                     if (translation == null)
                     {

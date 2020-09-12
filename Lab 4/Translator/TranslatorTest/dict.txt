@@ -1,0 +1,4 @@
+﻿слово=word 
+перевод=translated 
+программа=program
+компьютер=computer
